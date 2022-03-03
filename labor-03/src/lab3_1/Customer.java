@@ -16,7 +16,7 @@ public class Customer {
     }
 
     public String toString() {
-        return "Name: " + firstName + " " + lastName + getAccount();
+        return "Name: " + firstName + " " + lastName + " " + getAccount();
     }
 
     public void setAccount(BankAccount account) {

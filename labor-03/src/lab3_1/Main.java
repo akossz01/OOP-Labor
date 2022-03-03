@@ -1,11 +1,8 @@
 package lab3_1;
 
-import lab3_1.BankAccount;
-import lab3_1.Customer;
-
 public class Main {
     public static void main(String[] args) {
-        Customer customer1 = new Customer("Akos", "Szabo");
+        Customer customer1 = new Customer("John", "Black");
         System.out.println(customer1);
         customer1.setAccount(new BankAccount("OTP00001"));
         System.out.println(customer1);
@@ -20,8 +17,11 @@ public class Main {
         customer2.getAccount().deposit(10500);
         System.out.println(customer2);
         customer2.closeAccount();
-        System.out.println(customer2);
+        System.out.println(customer2 + "\n");
 
+        customer2 = customer1;
+
+        System.out.println(customer2);
 
     }
 }
