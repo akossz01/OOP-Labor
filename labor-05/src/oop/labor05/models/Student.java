@@ -1,0 +1,32 @@
+package oop.labor05.models;
+
+public final class Student {
+    private String ID;
+    private String firstName;
+    private String lastName;
+
+    public Student(String ID, String firstName, String lastName) {
+        this.ID = ID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    @Override
+    public String toString() {
+        return  "Student id: " + ID + '\n' +
+                "First Name:" + firstName + '\n' +
+                "Last Name: " + lastName + "\n\n";
+    }
+}
