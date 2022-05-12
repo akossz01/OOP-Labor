@@ -1,4 +1,4 @@
-package oop.labor09_2;
+package lab12_1;
 
 public interface IDictionary {
     String DICTIONARY_FILE = "dictionary.txt";

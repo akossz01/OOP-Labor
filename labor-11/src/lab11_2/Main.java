@@ -36,7 +36,7 @@ public class Main {
 
                 if (credits < 30){
                     try (FileWriter myWriter = new FileWriter(output, true)){ //append - nem overwriteolja a filet, hanem a vegere irja
-                        myWriter.write(id + " " + firstName + " " + lastName + " " + credits + " " + birthYear + " " + birthMonth + " " + birthDay + "\n");
+                        myWriter.write(id + "," + firstName + "," + lastName + "," + credits + "," + birthYear + "," + birthMonth + "," + birthDay + "\n");
                         myWriter.close();
                     } catch(IOException e){
                         e.printStackTrace();

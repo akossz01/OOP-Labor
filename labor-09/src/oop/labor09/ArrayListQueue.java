@@ -2,7 +2,7 @@ package oop.labor09;
 
 import java.util.ArrayList;
 
-public abstract class ArrayListQueue implements IQueue{
+public class ArrayListQueue implements IQueue{
     private ArrayList<Object> items = new ArrayList<>();
     private int CAPACITY;
 

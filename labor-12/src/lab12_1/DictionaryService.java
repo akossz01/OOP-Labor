@@ -1,4 +1,4 @@
-package oop.labor09_2;
+package lab12_1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
